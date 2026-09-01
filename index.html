@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DCA-Rechner</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f5f7f8;
+    --surface: #ffffff;
+    --ink: #1b2430;
+    --ink-soft: #57626f;
+    --line: #dbe2e7;
+    --accent: #2c5f6f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #10151b;
+      --surface: #171e26;
+      --ink: #e7ebee;
+      --ink-soft: #9daab6;
+      --line: #29323c;
+      --accent: #7bc4d6;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 48px 20px 64px;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main {
+    max-width: 34rem;
+    margin: 0 auto;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 32px 28px;
+  }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .sub { color: var(--ink-soft); margin: 0 0 24px; }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  footer {
+    max-width: 34rem;
+    margin: 20px auto 0;
+    color: var(--ink-soft);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>DCA-Rechner</h1>
+  <p class="sub">Eine Android-App zum Nachrechnen von Sparplänen: Käufe und Verkäufe erfassen, Durchschnittskurs und Bestand im Blick behalten.</p>
+  <ul>
+    <li><a href="https://play.google.com/store/apps/details?id=com.dcarechner.app">Im Google Play Store</a></li>
+    <li><a href="https://sites.google.com/view/dcacalculatordatenschutz">Datenschutzerklärung</a></li>
+    <li><a href="mailto:andrerabi@googlemail.com">andrerabi@googlemail.com</a></li>
+  </ul>
+</main>
+<footer>Entwicklerseite zur App <code>com.dcarechner.app</code>.</footer>
+</body>
+</html>
