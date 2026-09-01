@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Impressum – DCA-Rechner</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f5f7f8;
+    --surface: #ffffff;
+    --ink: #1b2430;
+    --ink-soft: #57626f;
+    --line: #dbe2e7;
+    --accent: #2c5f6f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #10151b;
+      --surface: #171e26;
+      --ink: #e7ebee;
+      --ink-soft: #9daab6;
+      --line: #29323c;
+      --accent: #7bc4d6;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 48px 20px 64px;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main {
+    max-width: 34rem;
+    margin: 0 auto;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 32px 28px;
+  }
+  h1 { font-size: 1.6rem; margin: 0 0 24px; letter-spacing: -0.01em; }
+  h2 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-soft);
+    font-weight: 600;
+    margin: 28px 0 6px;
+  }
+  h2:first-of-type { margin-top: 0; }
+  p { margin: 0 0 4px; }
+  address { font-style: normal; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .note { color: var(--ink-soft); font-size: 0.9rem; }
+  footer {
+    max-width: 34rem;
+    margin: 20px auto 0;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Impressum</h1>
+
+  <h2>Angaben gemäß § 5 DDG</h2>
+  <address>
+    <p>Andrea Rabita</p>
+    <p>Wißmannstraße 47</p>
+    <p>50823 Köln</p>
+    <p>Deutschland</p>
+  </address>
+
+  <h2>Kontakt</h2>
+  <p><a href="mailto:andrerabi@googlemail.com">andrerabi@googlemail.com</a></p>
+
+  <h2>Verantwortlich für den Inhalt</h2>
+  <p>Andrea Rabita, Anschrift wie oben</p>
+
+  <h2>Angebot</h2>
+  <p class="note">Diese Seite gehört zur Android-App <a href="https://play.google.com/store/apps/details?id=com.dcarechner.app">DCA-Rechner</a> (<code>com.dcarechner.app</code>), vertrieben über Google Play.</p>
+
+  <h2>Verbraucherstreitbeilegung</h2>
+  <p class="note">Ich bin nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+</main>
+<footer><a href="/">&larr; Zurück zur Startseite</a></footer>
+</body>
+</html>
